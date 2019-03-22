@@ -2,7 +2,7 @@
   "name": "webv2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/danielc1771/danielc1771.github.io.git",
+  "homepage": "https://github.com/danielc1771/danielc1771.github.io",
   "dependencies": {
     "aos": "^2.3.4",
     "bootstrap": "^4.3.1",
