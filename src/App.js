@@ -1,26 +1,29 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React, { Component } from "react";
+import { Switch, Route, Link } from "react-router-dom";
+import NavBar from "./components/navbar.jsx";
+import Home from "./components/homepage.jsx";
+import About from "./components/aboutpage.jsx";
+import Projects from "./components/projectpage.jsx";
+import Contact from "./components/contactpage.jsx";
+import AOS from "aos";
+import "aos/dist/aos.css";
 class App extends Component {
+  componentDidMount() {
+    AOS.init();
+
+    AOS.refresh();
+  }
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <React.Fragment>
+        <NavBar />
+        <div className="container">
+          <Home />
+          <About />
+          <Projects />
+          <Contact />
+        </div>
+      </React.Fragment>
     );
   }
 }

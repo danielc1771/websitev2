@@ -1,0 +1,115 @@
+#root {
+  background-color: #2d3047;
+}
+.home {
+  min-height: 100vh;
+}
+
+.home-title {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  color: #b0d7ff;
+  font-size: 6rem;
+  text-align: center;
+  margin-top: 40vh;
+}
+
+.home-descrip {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 100;
+  color: #eae8ff;
+  text-align: center;
+}
+
+.home-icon {
+  color: #b0d7ff;
+  margin-right: 1rem;
+}
+
+#home-icons {
+  margin-top: 1rem;
+  text-align: center;
+}
+#about {
+  min-height: 100vh;
+  padding-top: 4rem;
+}
+.section-title {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #b0d7ff;
+}
+
+.about-descrip {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #eae8ff;
+  font-size: 1.1rem;
+}
+
+.about-highlights {
+  color: #b0d7ff;
+}
+
+.about-image {
+  max-width: 350px;
+  box-shadow: 10px 10px 2px #b0d7ff;
+}
+
+.about-text {
+  margin-top: 3rem;
+}
+
+.about-skills-list {
+  color: #eae8ff;
+  margin-left: 3rem;
+  margin-right: -7rem;
+}
+
+#about-skills-title {
+  font-family: "IBM Plex Sans", sans-serif;
+  margin-top: 2rem;
+  color: #b0d7ff;
+}
+
+#about-resume-btn {
+  text-align: center;
+}
+
+#projects {
+  min-height: 100vh;
+  padding-top: 6rem;
+}
+.projects-title {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #b0d7ff;
+  text-align: right;
+}
+
+#contact {
+  padding-top: 4rem;
+  min-height: 100vh;
+}
+
+.contact-title {
+  margin-top: 15vh;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  color: #eae8ff;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.contact-descrip {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 100;
+  color: #eae8ff;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.contact-icons {
+  margin-top: 2rem;
+}
+
+#contact-email-btn {
+  text-align: center;
+}
